@@ -1,0 +1,48 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "DotNetWatch",
+            "request": "launch",
+            "name": ".NET Core Watch: Persistence",
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "DOTNET_WATCH_RESTART_ON_RUDE_EDIT": "true"
+            },
+            "project": "Persistence.csproj"
+        },
+        {
+            "type": "DotNetWatch",
+            "request": "launch",
+            "name": ".NET Core Watch: Domain",
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "DOTNET_WATCH_RESTART_ON_RUDE_EDIT": "true"
+            },
+            "project": "Domain.csproj"
+        },
+        {
+            "type": "DotNetWatch",
+            "request": "launch",
+            "name": ".NET Core Watch: Application",
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "DOTNET_WATCH_RESTART_ON_RUDE_EDIT": "true"
+            },
+            "project": "Application.csproj"
+        },
+        {
+            "type": "DotNetWatch",
+            "request": "launch",
+            "name": ".NET Core Watch: API",
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "DOTNET_WATCH_RESTART_ON_RUDE_EDIT": "true"
+            },
+            "project": "API.csproj"
+        }
+    ]
+}
